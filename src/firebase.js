@@ -2,12 +2,12 @@ import {initializeApp} from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
  
 const firebaseConfig = {
-  apiKey: "AIzaSyAdt6bsyXRpV-8f6mFmQ6VjP7oflGPn7rs",
-  authDomain: "dayp-b4fc0.firebaseapp.com",
-  projectId: "dayp-b4fc0",
-  storageBucket: "dayp-b4fc0.appspot.com",
-  messagingSenderId: "270930397327",
-  appId: "1:270930397327:web:0b6280e24e987ac288c8fa"
+  apiKey: "AIzaSyCInNIs8Eyza0WwU4CeHR45Y01Q0LDU5UE",
+  authDomain: "teja-86afe.firebaseapp.com",
+  projectId: "teja-86afe",
+  storageBucket: "teja-86afe.appspot.com",
+  messagingSenderId: "396230478134",
+  appId: "1:396230478134:web:769d71ac90fc7df2944b97"
 };
 
 
