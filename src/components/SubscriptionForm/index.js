@@ -134,6 +134,18 @@ const SubscriptionForm = () => {
             <option value={3}>3 {t('liters')}</option>
             <option value={4}>4 {t('liters')}</option>
           </select>
+          <h2>Type of Milk</h2>
+          <select>
+            <option value = "cow">
+              Cow Milk
+            </option>
+            <option value = "goat">
+              Goat Milk
+            </option>
+            <option value = "buffalo">
+              Buffalo Milk
+            </option>
+          </select>
           <div className="date-container">
             {showStats&&
             <div className='milk-details-card'>

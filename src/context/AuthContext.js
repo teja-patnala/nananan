@@ -13,7 +13,6 @@ export function useAuth(){
 
 const auth = getAuth(app)
 
-// ... (imports and context creation)
 
 function AuthProvider({ children }) {
     const [currentUser, setCurrentUser] = useState();

@@ -115,11 +115,12 @@ function MeatOrdersForm() {
       key_secret: '14BZ4AkfZioI41FGsGzM9VrT',
       amount: amount * 100,
       currency: 'INR',
-      name: 'NANDHI FARMS',
+      name: 'Homaid Services',
       description: 'for testing purpose',
       handler: function (response) {
-        updateFirestoreForMeat(response.razorpay_payment_id,amount);
-        updateFirestoreMeatQuantity(cart)
+        // updateFirestoreForMeat(response.razorpay_payment_id,amount);
+        // updateFirestoreMeatQuantity(cart);
+        console.log(response);
       },
       prefill: {
         name: 'patnala venkata teja',
